@@ -1,0 +1,25 @@
+{
+  "name": "anyroad-roi-calculator",
+  "version": "1.0.0",
+  "description": "Web-based ROI Calculator for AnyRoad sales reps - IMPACT Framework implementation",
+  "main": "src/calculator/index.ts",
+  "scripts": {
+    "test": "jest",
+    "build": "tsc",
+    "dev": "vite",
+    "lint": "eslint src --ext ts,tsx"
+  },
+  "keywords": [
+    "roi",
+    "calculator",
+    "sales",
+    "anyroad",
+    "impact-framework"
+  ],
+  "author": "Bay McLaughlin",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  }
+}
